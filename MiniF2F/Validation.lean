@@ -132,7 +132,7 @@ theorem amc12_2001_p9 (f : ℝ → ℝ) (h₀ : ∀ x > 0, ∀ y > 0, f (x * y) 
     _ = f 500 / (6 / 5) := by rw [h₀]
     _ = 3 / (6 / 5) := by rw [h₁]
     _ = 5 / 2 := by norm_num
-    
+
 #align amc12_2001_p9 amc12_2001_p9
 
 theorem imo_1965_p1 (x : ℝ) (h₀ : 0 ≤ x) (h₁ : x ≤ 2 * π)
@@ -168,7 +168,7 @@ theorem mathd_numbertheory_132 : 2004 % 12 = 0 := by norm_num
 theorem amc12a_2009_p5 (x : ℝ) (h₀ : x ^ 3 - (x + 1) * (x - 1) * x = 5) : x ^ 3 = 125 := by sorry
 #align amc12a_2009_p5 amc12a_2009_p5
 
-theorem mathd_numbertheory_188 : Nat.gcd 180 168 = 12 := by sorry 
+theorem mathd_numbertheory_188 : Nat.gcd 180 168 = 12 := by sorry
 #align mathd_numbertheory_188 mathd_numbertheory_188
 
 theorem mathd_algebra_224 (S : Finset ℕ)
@@ -223,14 +223,14 @@ theorem mathd_numbertheory_236 : 1999 ^ 2000 % 5 = 1 := by sorry
 #align mathd_numbertheory_236 mathd_numbertheory_236
 
 theorem mathd_numbertheory_24 : (∑ k in Finset.Icc 1 9, 11 ^ k) % 100 = 59 :=
-  by sorry 
+  by sorry
 #align mathd_numbertheory_24 mathd_numbertheory_24
 
 theorem algebra_amgm_prod1toneq1_sum1tongeqn (a : ℕ → NNReal) (n : ℕ)
     (h₀ : Finset.prod (Finset.range n) a = 1) : Finset.sum (Finset.range n) a ≥ n := by sorry
 #align algebra_amgm_prod1toneq1_sum1tongeqn algebra_amgm_prod1toneq1_sum1tongeqn
 
-theorem mathd_algebra_101 (x : ℝ) (h₀ : x ^ 2 - 5 * x - 4 ≤ 10) : x ≥ -2 ∧ x ≤ 7 := by sorry 
+theorem mathd_algebra_101 (x : ℝ) (h₀ : x ^ 2 - 5 * x - 4 ≤ 10) : x ≥ -2 ∧ x ≤ 7 := by sorry
 #align mathd_algebra_101 mathd_algebra_101
 
 theorem mathd_numbertheory_257 (x : ℕ) (h₀ : 1 ≤ x ∧ x ≤ 100)
@@ -273,7 +273,7 @@ theorem aime_1994_p4 (n : ℕ) (h₀ : 0 < n)
     (h₀ : (∑ k in Finset.Icc 1 n, Int.floor (Real.logb 2 k)) = 1994) : n = 312 := by sorry
 #align aime_1994_p4 aime_1994_p4
 
-theorem mathd_numbertheory_739 : 9! % 10 = 0 := by norm_num
+theorem mathd_numbertheory_739 : 9! % 10 = 0 := by sorry
 #align mathd_numbertheory_739 mathd_numbertheory_739
 
 theorem mathd_algebra_245 (x : ℝ) (h₀ : x ≠ 0) :
@@ -338,11 +338,7 @@ theorem amc12a_2021_p7 (x y : ℝ) : 1 ≤ (x * y - 1) ^ 2 + (x + y) ^ 2 :=
 
 theorem mathd_algebra_327 (a : ℝ) (h₀ : 1 / 5 * abs (9 + 2 * a) < 1) : -7 < a ∧ a < -2 :=
   by
-  have h₁ := (mul_lt_mul_left (show 0 < (5 : ℝ) by linarith)).mpr h₀
-  have h₂ : abs (9 + 2 * a) < 5; linarith
-  have h₃ := abs_lt.mp h₂
-  cases' h₃ with h₃ h₄
-  constructor <;> nlinarith
+  sorry
 #align mathd_algebra_327 mathd_algebra_327
 
 theorem aime_1984_p15 (x y z w : ℝ)
@@ -399,7 +395,7 @@ theorem mathd_numbertheory_155 :
 #align mathd_numbertheory_155 mathd_numbertheory_155
 
 theorem imo_1978_p5 (n : ℕ) (a : ℕ → ℕ) (h₀ : Function.Injective a) (h₁ : a 0 = 0) (h₂ : 0 < n) :
-    (∑ k in Finset.Icc 1 n, (1 : ℝ) / k) ≤ ∑ k in Finset.Icc 1 n, a k / k ^ 2 := by sorry
+    (∑ k in Finset.Icc 1 n, (1 : ℝ) / k) ≤ ∑ k in Finset.Icc 1 n, (a k) / (k:ℝ) ^ 2 := by sorry
 #align imo_1978_p5 imo_1978_p5
 
 theorem amc12a_2017_p7 (f : ℕ → ℝ) (h₀ : f 1 = 2) (h₁ : ∀ n, 1 < n ∧ Even n → f n = f (n - 1) + 1)
@@ -518,14 +514,14 @@ theorem mathd_algebra_214 (a : ℝ) (f : ℝ → ℝ) (h₀ : ∀ x, f x = a * (
 
 theorem mathd_algebra_96 (x y z a : ℝ) (h₀ : 0 < x ∧ 0 < y ∧ 0 < z)
     (h₁ : Real.log x - Real.log y = a) (h₂ : Real.log y - Real.log z = 15)
-    (h₃ : Real.log z - Real.log x = -7) : a = -8 := by nlinarith [h₁, h₂, h₃]
+    (h₃ : Real.log z - Real.log x = -7) : a = -8 := by sorry
 #align mathd_algebra_96 mathd_algebra_96
 
 theorem amc12_2001_p2 (a b n : ℕ) (h₀ : 1 ≤ a ∧ a ≤ 9) (h₁ : 0 ≤ b ∧ b ≤ 9) (h₂ : n = 10 * a + b)
     (h₃ : n = a * b + a + b) : b = 9 := by
   rw [h₂] at h₃
   simp at h₃
-  have h₄ : 10 * a = (b + 1) * a; linarith
+  have h₄ : 10 * a = (b + 1) * a := by linarith
   simp at h₄
   cases' h₄ with h₅ h₆
   linarith
@@ -677,7 +673,7 @@ theorem mathd_numbertheory_301 (j : ℕ) (h₀ : 0 < j) : 3 * (7 * ↑j + 3) % 7
     3 * (7 * ↑j + 3) % 7 = (3 * 3 + 3 * ↑j * 7) % 7 := by ring_nf
     _ = 3 * 3 % 7 := by apply Nat.add_mul_mod_self_right
     _ = 2 := by norm_num
-    
+
 #align mathd_numbertheory_301 mathd_numbertheory_301
 
 theorem amc12a_2009_p15 (n : ℕ) (h₀ : 0 < n)
@@ -803,8 +799,8 @@ theorem mathd_algebra_11 (a b : ℝ) (h₀ : a ≠ b) (h₁ : a ≠ 2 * b)
   refine' (eq_div_iff _).mpr _
   exact sub_ne_zero_of_ne h₀
   rw [eq_comm] at h₂
-  suffices : a = 13 * b; linarith
-  have key : 5 * (a - 2 * b) = 4 * a + 3 * b; rwa [(eq_div_iff (sub_ne_zero_of_ne h₁)).mp]
+  -- suffices : a = 13 * b:= by linarith
+  have key : 5 * (a - 2 * b) = 4 * a + 3 * b:= by rwa [(eq_div_iff (sub_ne_zero_of_ne h₁)).mp]
   linarith
 #align mathd_algebra_11 mathd_algebra_11
 

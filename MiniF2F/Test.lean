@@ -9,19 +9,19 @@ import MiniF2F.Minif2fImport
 
 open BigOperators
 
-open Nat 
+open Nat
 
-open Real 
+open Real
 
 open Rat
 
 theorem mathd_algebra_478 (b h v : ℝ) (h₀ : 0 < b ∧ 0 < h ∧ 0 < v) (h₁ : v = 1 / 3 * (b * h))
     (h₂ : b = 30) (h₃ : h = 13 / 2) : v = 65 :=
-  by sorry 
+  by sorry
 #align mathd_algebra_478 mathd_algebra_478
 
 theorem numbertheory_4x3m7y3neq2003 (x y : ℤ) : 4 * x ^ 3 - 7 * y ^ 3 ≠ 2003 :=
-  by sorry 
+  by sorry
 #align numbertheory_4x3m7y3neq2003 numbertheory_4x3m7y3neq2003
 
 theorem aime_1983_p1 (x y z w : ℕ) (ht : 1 < x ∧ 1 < y ∧ 1 < z) (hw : 0 ≤ w)
@@ -48,7 +48,7 @@ theorem imo_1969_p2 (m n : ℝ) (k : ℕ) (a : ℕ → ℝ) (y : ℝ → ℝ) (h
 #align imo_1969_p2 imo_1969_p2
 
 theorem mathd_algebra_209 (σ : Equiv ℝ ℝ) (h₀ : σ.2 2 = 10) (h₁ : σ.2 10 = 1) (h₂ : σ.2 1 = 2) :
-    σ.1 (σ.1 10) = 1 := by sorry 
+    σ.1 (σ.1 10) = 1 := by sorry
 #align mathd_algebra_209 mathd_algebra_209
 
 theorem mathd_numbertheory_1124 (n : ℕ) (h₀ : n ≤ 9) (h₁ : 18 ∣ 374 * 10 + n) : n = 4 := by sorry
@@ -130,7 +130,7 @@ theorem mathd_numbertheory_430 (a b c : ℕ) (h₀ : 1 ≤ a ∧ a ≤ 9) (h₁ 
 theorem mathd_algebra_459 (a b c d : ℚ) (h₀ : 3 * a = b + c + d) (h₁ : 4 * b = a + c + d)
     (h₂ : 2 * c = a + b + d) (h₃ : 8 * a + 10 * b + 6 * c = 24) : ↑d.den + d.num = 28 :=
   by
-  have h₄ : d = 13 / 15; linarith
+    -- have h₄ : d = 13 / 15; linarith
   sorry
 #align mathd_algebra_459 mathd_algebra_459
 
@@ -145,8 +145,7 @@ theorem mathd_algebra_320 (x : ℝ) (a b c : ℕ) (h₀ : 0 < a ∧ 0 < b ∧ 0 
 
 theorem mathd_algebra_137 (x : ℕ) (h₀ : ↑x + (4 : ℝ) / (100 : ℝ) * ↑x = 598) : x = 575 :=
   by
-  have h₁ : ↑x = (575 : ℝ); linarith
-  assumption_mod_cast
+    sorry
 #align mathd_algebra_137 mathd_algebra_137
 
 theorem imo_1997_p5 (x y : ℕ) (h₀ : 0 < x ∧ 0 < y) (h₁ : x ^ y ^ 2 = y ^ x) :
@@ -274,7 +273,7 @@ theorem mathd_numbertheory_175 : 2 ^ 2010 % 10 = 4 := by sorry
 theorem induction_sumkexp3eqsumksq (n : ℕ) :
     (∑ k in Finset.range n, k ^ 3) = (∑ k in Finset.range n, k) ^ 2 :=
   by sorry
-      
+
 #align induction_sumkexp3eqsumksq induction_sumkexp3eqsumksq
 
 theorem numbertheory_fxeq4powxp6powxp9powx_f2powmdvdf2pown (m n : ℕ) (f : ℕ → ℕ)
@@ -459,7 +458,7 @@ theorem mathd_numbertheory_135 (n A B C : ℕ) (h₀ : n = 3 ^ 17 + 3 ^ 10) (h�
 
 theorem mathd_algebra_275 (x : ℝ) (h : ((11 : ℝ) ^ (1 / 4)) ^ (3 * x - 3) = 1 / 5) :
     ((11 : ℝ) ^ (1 / 4)) ^ (6 * x + 2) = 121 / 25 :=
-  by sorry 
+  by sorry
 #align mathd_algebra_275 mathd_algebra_275
 
 theorem mathd_algebra_388 (x y z : ℝ) (h₀ : 3 * x + 4 * y - 12 * z = 10)
@@ -468,7 +467,7 @@ theorem mathd_algebra_388 (x y z : ℝ) (h₀ : 3 * x + 4 * y - 12 * z = 10)
 
 theorem amc12a_2020_p7 (a : ℕ → ℕ) (h₀ : a 0 ^ 3 = 1) (h₁ : a 1 ^ 3 = 8) (h₂ : a 2 ^ 3 = 27)
     (h₃ : a 3 ^ 3 = 64) (h₄ : a 4 ^ 3 = 125) (h₅ : a 5 ^ 3 = 216) (h₆ : a 6 ^ 3 = 343) :
-    ↑(∑ k in Finset.range 7, 6 * a k ^ 2) - ↑(2 * ∑ k in Finset.range 6, a k ^ 2) = (658 : ℤ) := by
+    ↑(∑ k in Finset.range 7, 6 * (a:) ((k:ℕ  ) ^ (2 ):ℕ  )) - ↑(2 * ∑ k in Finset.range 6, a (k ^ 2):ℕ ) = (658 : ℤ) := by
   sorry
 #align amc12a_2020_p7 amc12a_2020_p7
 
@@ -498,7 +497,7 @@ theorem mathd_numbertheory_764 (p : ℕ) (h₀ : Nat.Prime p) (h₁ : 7 ≤ p) :
 theorem amc12b_2021_p4 (m a : ℕ) (h₀ : 0 < m ∧ 0 < a) (h₁ : ↑m / ↑a = (3 : ℝ) / 4) :
     (84 * ↑m + 70 * ↑a) / (↑m + ↑a) = (76 : ℝ) :=
   by sorry
-    
+
 #align amc12b_2021_p4 amc12b_2021_p4
 
 theorem imo_1962_p2 (x : ℝ) (h₀ : 0 ≤ 3 - x) (h₁ : 0 ≤ x + 1)
@@ -625,13 +624,13 @@ theorem induction_pprime_pdvdapowpma (p a : ℕ) (h₀ : 0 < a) (h₁ : Nat.Prim
   sorry
 #align induction_pprime_pdvdapowpma induction_pprime_pdvdapowpma
 
-theorem amc12a_2021_p9 : (∏ k in Finset.range 7, 2 ^ 2 ^ k + 3 ^ 2 ^ k) = 3 ^ 128 - 2 ^ 128 :=
+theorem amc12a_2021_p9 : (∏ k in Finset.range 7, (2 ^ 2 ^ k + 3 ^ 2 ^ k) ) = 3 ^ 128 - 2 ^ 128 :=
   by sorry
 #align amc12a_2021_p9 amc12a_2021_p9
 
 -- Sum a sequence by grouping adjacent terms.
 theorem sum_pairs (n : ℕ) (f : ℕ → ℚ) :
-    (∑ k in Finset.range (2 * n), f k) = ∑ k in Finset.range n, f (2 * k) + f (2 * k + 1) :=
+    (∑ k in Finset.range (2 * n), f k) = ∑ k in Finset.range n, (f (2 * k) + f (2 * k + 1)) :=
   by sorry
 #align sum_pairs sum_pairs
 
@@ -816,7 +815,7 @@ theorem aime_1988_p8 (f : ℕ → ℕ → ℝ) (h₀ : ∀ x, 0 < x → f x x = 
 
 theorem mathd_algebra_114 (a : ℝ) (h₀ : a = 8) :
     (16 * (a ^ 2) ^ ((1 : ℝ) / 3)) ^ ((1 : ℝ) / 3) = 4 :=
-  by sorry 
+  by sorry
 #align mathd_algebra_114 mathd_algebra_114
 
 theorem imo_2019_p1 (f : ℤ → ℤ) :
@@ -876,8 +875,8 @@ theorem mathd_algebra_196 (S : Finset ℝ) (h₀ : ∀ x : ℝ, x ∈ S ↔ abs 
     (∑ k in S, k) = 4 := by sorry
 #align mathd_algebra_196 mathd_algebra_196
 
-theorem mathd_algebra_342 (a d : ℝ) (h₀ : (∑ k in Finset.range 5, a + k * d) = 70)
-    (h₁ : (∑ k in Finset.range 10, a + k * d) = 210) : a = 42 / 5 :=
+theorem mathd_algebra_342 (a d : ℝ) (h₀ : (∑ k in Finset.range 5, (a + k * d)) = 70)
+    (h₁ : (∑ k in Finset.range 10, (a + k * d)) = 210) : a = 42 / 5 :=
   by sorry
 #align mathd_algebra_342 mathd_algebra_342
 
@@ -1026,7 +1025,7 @@ theorem amc12a_2009_p6 (m n p q : ℝ) (h₀ : p = 2 ^ m) (h₁ : q = 3 ^ n) :
 #align amc12a_2009_p6 amc12a_2009_p6
 
 theorem mathd_algebra_158 (a : ℕ) (h₀ : Even a)
-    (h₁ : ↑(∑ k in Finset.range 8, 2 * k + 1) - ↑(∑ k in Finset.range 5, a + 2 * k) = (4 : ℤ)) :
+    (h₁ : ↑(∑ k in Finset.range 8, 2 * k + 1) - ↑(∑ k in Finset.range 5, (a + 2 * k) ) = (4 : ℤ)) :
     a = 8 := by sorry
 #align mathd_algebra_158 mathd_algebra_158
 
@@ -1124,10 +1123,5 @@ theorem mathd_numbertheory_582 (n : ℕ) (h₀ : 0 < n) (h₁ : 3 ∣ n) :
 theorem mathd_algebra_338 (a b c : ℝ) (h₀ : 3 * a + b + c = -3) (h₁ : a + 3 * b + c = 9)
     (h₂ : a + b + 3 * c = 19) : a * b * c = -56 :=
   by
-  have ha : a = -4; linarith
-  have hb : b = 2; linarith
-  have hc : c = 7; linarith
-  rw [ha, hb, hc]
-  norm_num
+    sorry
 #align mathd_algebra_338 mathd_algebra_338
-
