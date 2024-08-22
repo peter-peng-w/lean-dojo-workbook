@@ -1,0 +1,13 @@
+import LeanWorkbook.LeanWorkbookImport
+
+open BigOperators
+
+open Nat
+
+open Real
+
+open Rat
+
+theorem lean_theorem :
+  10! / (8! * 2!) * (4! / (2! * 2!)) * (4! / (2! * 2!)) = 1620 := by
+  sorry
