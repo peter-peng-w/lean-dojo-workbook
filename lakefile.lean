@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «lean-workbook» {
+package «leanWorkbook» {
   -- add any package configuration options here
 }
 
