@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : ∃ l, ∑' n : ℕ, (sin n^2 / n) = l := by
+theorem lean_workbook_plus_22923 : ∃ l, ∑' n : ℕ, (sin n^2 / n) = l := by
   sorry

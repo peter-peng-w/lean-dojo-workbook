@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : 5 - (-3) = 8 := by
+theorem lean_workbook_plus_51000 : 5 - (-3) = 8 := by
   sorry

@@ -8,6 +8,6 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (a b c : ℝ) :
+theorem lean_workbook_plus_52659  (a b c : ℝ) :
   a * b + b * c + c * a = 1 ↔ a * (b + c) = 1 - b * c := by
   sorry

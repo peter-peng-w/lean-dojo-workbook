@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : 99 ^ 100 > 100 ^ 99 := by
+theorem lean_workbook_plus_35150 : 99 ^ 100 > 100 ^ 99 := by
   sorry

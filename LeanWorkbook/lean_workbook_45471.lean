@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : ∀ x, ∃ y, y = x^2 + 3 := by
+theorem lean_workbook_45471 : ∀ x, ∃ y, y = x^2 + 3 := by
   sorry

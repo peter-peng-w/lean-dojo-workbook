@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem {k : ℤ} (h : k ^ 2 ≡ 1 [ZMOD 8]) : Odd k := by
+theorem lean_workbook_plus_23610 {k : ℤ} (h : k ^ 2 ≡ 1 [ZMOD 8]) : Odd k := by
   sorry

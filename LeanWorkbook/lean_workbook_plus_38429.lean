@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (n m : ℕ) (h : m ≤ n) : ∃ k : ℤ, (n.choose m) = k := by
+theorem lean_workbook_plus_38429 (n m : ℕ) (h : m ≤ n) : ∃ k : ℤ, (n.choose m) = k := by
   sorry

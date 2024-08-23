@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (a b : ℝ) (h : a * b = 0) : a = 0 ∨ b = 0 := by
+theorem lean_workbook_32400 (a b : ℝ) (h : a * b = 0) : a = 0 ∨ b = 0 := by
   sorry

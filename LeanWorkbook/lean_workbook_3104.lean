@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (x : ℝ) (hx : 1 ≤ x) : (x^2 - 1) * (x^2 + 4 * x + 1) - 12 * Real.log x ≥ 0 := by
+theorem lean_workbook_3104 (x : ℝ) (hx : 1 ≤ x) : (x^2 - 1) * (x^2 + 4 * x + 1) - 12 * Real.log x ≥ 0 := by
   sorry

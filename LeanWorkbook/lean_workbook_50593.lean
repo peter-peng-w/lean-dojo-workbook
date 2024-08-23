@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (x y z : ℝ) : (x + y + 2 * z) ^ 2 ≥ 4 * (y + z) * (x + z) := by
+theorem lean_workbook_50593 (x y z : ℝ) : (x + y + 2 * z) ^ 2 ≥ 4 * (y + z) * (x + z) := by
   sorry

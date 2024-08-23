@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (t : ℝ) (ht : 2 ≤ t) : (7 - 2 * t) ^ 3 ≤ 3 * (t ^ 2 - 1) ^ 2 := by
+theorem lean_workbook_30773 (t : ℝ) (ht : 2 ≤ t) : (7 - 2 * t) ^ 3 ≤ 3 * (t ^ 2 - 1) ^ 2 := by
   sorry

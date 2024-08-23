@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (x : ℝ) : sin (50 * π / 180) = cos (40 * π / 180) := by
+theorem lean_workbook_plus_12099 (x : ℝ) : sin (50 * π / 180) = cos (40 * π / 180) := by
   sorry

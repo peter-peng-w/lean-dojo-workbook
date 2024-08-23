@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (n : ℕ) : ∑ i in Finset.range (n+1), (Nat.choose n i) = 2^n := by
+theorem lean_workbook_51848 (n : ℕ) : ∑ i in Finset.range (n+1), (Nat.choose n i) = 2^n := by
   sorry

@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (x y : ℝ) (hx : x ≠ 0) (hy : y ≠ 0) (hxy : x + y = 4 * x * y) : x⁻¹ + y⁻¹ = 4 := by
+theorem lean_workbook_53842 (x y : ℝ) (hx : x ≠ 0) (hy : y ≠ 0) (hxy : x + y = 4 * x * y) : x⁻¹ + y⁻¹ = 4 := by
   sorry

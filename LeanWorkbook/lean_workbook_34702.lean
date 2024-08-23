@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (h : 52 ≠ 0 ∧ 51 ≠ 0) : (4 : ℚ) / 52 * (3 / 51) = 12 / 2652 := by
+theorem lean_workbook_34702 (h : 52 ≠ 0 ∧ 51 ≠ 0) : (4 : ℚ) / 52 * (3 / 51) = 12 / 2652 := by
   sorry

@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : ¬ Function.Injective (fun x : ℝ => 9*x - x^3) := by
+theorem lean_workbook_plus_43745 : ¬ Function.Injective (fun x : ℝ => 9*x - x^3) := by
   sorry

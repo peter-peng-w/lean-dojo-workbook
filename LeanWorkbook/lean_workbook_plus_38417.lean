@@ -8,6 +8,6 @@ open Real
 
 open Rat
 
-theorem lean_theorem :
+theorem lean_workbook_plus_38417 :
   (444 * 418) % 703 = 0 := by
   sorry

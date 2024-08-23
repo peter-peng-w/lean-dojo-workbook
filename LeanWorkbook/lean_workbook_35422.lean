@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : ∀ x : ℝ, (Real.sqrt ((144 - x ^ 2) ^ 2) = 144 - x ^ 2) ↔ (0 ≤ 144 - x ^ 2) := by
+theorem lean_workbook_35422 : ∀ x : ℝ, (Real.sqrt ((144 - x ^ 2) ^ 2) = 144 - x ^ 2) ↔ (0 ≤ 144 - x ^ 2) := by
   sorry

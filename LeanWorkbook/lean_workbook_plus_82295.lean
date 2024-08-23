@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (A : ℝ) (hA : A = π / 2) : cos A ^ 2 = 0 := by
+theorem lean_workbook_plus_82295 (A : ℝ) (hA : A = π / 2) : cos A ^ 2 = 0 := by
   sorry

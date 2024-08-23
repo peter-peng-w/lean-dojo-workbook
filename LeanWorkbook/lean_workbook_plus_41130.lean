@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (n : ℕ) : Real.sqrt (n * (n + 2)) < n + 1 := by
+theorem lean_workbook_plus_41130 (n : ℕ) : Real.sqrt (n * (n + 2)) < n + 1 := by
   sorry

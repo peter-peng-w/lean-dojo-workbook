@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (a b : ℚ)
+theorem lean_workbook_plus_2202  (a b : ℚ)
   (t : ℚ)
   (h₀ : t^3 = a * t + b)
   (h₁ : 0 < a ∧ 0 < b)

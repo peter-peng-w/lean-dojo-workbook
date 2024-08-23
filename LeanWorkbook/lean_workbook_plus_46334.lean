@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (k : ℕ) : k = k := by
+theorem lean_workbook_plus_46334 (k : ℕ) : k = k := by
   sorry

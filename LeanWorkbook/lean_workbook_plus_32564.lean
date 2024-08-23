@@ -8,6 +8,6 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (p : ℝ) :
+theorem lean_workbook_plus_32564  (p : ℝ) :
   (2 * p^2 + p + 2)^2 - 5 * p^2 = 4 * (p^4 + p^3 + p^2 + p + 1) := by
   sorry

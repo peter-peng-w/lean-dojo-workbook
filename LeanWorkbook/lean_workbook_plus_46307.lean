@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (x : ℝ) (hx : 1 ≤ x) : Real.log x ≤ x - 1 := by
+theorem lean_workbook_plus_46307 (x : ℝ) (hx : 1 ≤ x) : Real.log x ≤ x - 1 := by
   sorry

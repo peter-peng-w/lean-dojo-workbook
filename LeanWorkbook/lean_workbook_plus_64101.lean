@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (x : ℝ)
+theorem lean_workbook_plus_64101  (x : ℝ)
   (h₀ : x = 150000) :
   3/4 * x = 150000 * 3/4 := by
   sorry

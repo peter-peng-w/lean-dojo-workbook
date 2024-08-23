@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (n : ℕ) (x y : ℕ → ℕ) (h₁ : ∑ i in Finset.range n, x i ≥ y i) (h₂ : y i ≥ x i ^ 2) : x i ^ 2 * y i ≤ y i ^ 2 ∧ y i ^ 2 ≤ (∑ i in Finset.range n, x i) ^ 2 := by
+theorem lean_workbook_plus_50748 (n : ℕ) (x y : ℕ → ℕ) (h₁ : ∑ i in Finset.range n, x i ≥ y i) (h₂ : y i ≥ x i ^ 2) : x i ^ 2 * y i ≤ y i ^ 2 ∧ y i ^ 2 ≤ (∑ i in Finset.range n, x i) ^ 2 := by
   sorry

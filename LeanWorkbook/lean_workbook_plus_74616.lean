@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (p q r : Prop) : (p → q ∨ r) ↔ (p → q) ∨ (p → r) := by
+theorem lean_workbook_plus_74616 (p q r : Prop) : (p → q ∨ r) ↔ (p → q) ∨ (p → r) := by
   sorry

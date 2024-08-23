@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem :  ∀ x : ℝ, (sin x * (1 - cos x) / (1 - cos x ^ 2) - sin x * (1 + cos x) / (1 - cos x ^ 2) = -2 * cos x * sin x / sin x ^ 2) := by
+theorem lean_workbook_plus_47397 :  ∀ x : ℝ, (sin x * (1 - cos x) / (1 - cos x ^ 2) - sin x * (1 + cos x) / (1 - cos x ^ 2) = -2 * cos x * sin x / sin x ^ 2) := by
   sorry

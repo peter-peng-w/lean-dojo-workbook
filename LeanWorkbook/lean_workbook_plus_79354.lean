@@ -8,6 +8,6 @@ open Real
 
 open Rat
 
-theorem lean_theorem :
+theorem lean_workbook_plus_79354 :
   (6 * 4 * 1 + 4 * 1 * 6 + 1 * 6 * 4 + 5 * 3 * 2 + 3 * 2 * 5 + 2 * 5 * 3) = 162 := by
   sorry

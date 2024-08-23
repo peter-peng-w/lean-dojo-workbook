@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : 160083 = (2*5 + 1) * (2*10 + 1) * (2*10 + 1) * (2*5 + 1) * (2*1 + 1) := by
+theorem lean_workbook_plus_29174 : 160083 = (2*5 + 1) * (2*10 + 1) * (2*10 + 1) * (2*5 + 1) * (2*1 + 1) := by
   sorry

@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : (choose 8 2 * 16) = 448 := by
+theorem lean_workbook_24062 : (choose 8 2 * 16) = 448 := by
   sorry

@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (a b : ℝ)
+theorem lean_workbook_plus_29372  (a b : ℝ)
   (h₁ : ∃ x : ℚ, a = x)
   (h₂ : ∃ x : ℚ, b = x)
   (h₃ : ∃ x : ℚ, a + b = x)

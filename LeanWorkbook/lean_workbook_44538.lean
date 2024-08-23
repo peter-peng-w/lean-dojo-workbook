@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (a b c : ℝ) : a^8 + b^8 + c^8 ≥ a^4 * b^4 + b^4 * c^4 + c^4 * a^4 := by
+theorem lean_workbook_44538 (a b c : ℝ) : a^8 + b^8 + c^8 ≥ a^4 * b^4 + b^4 * c^4 + c^4 * a^4 := by
   sorry

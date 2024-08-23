@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (x : ℝ) : tan x = sin x / cos x := by
+theorem lean_workbook_9887 (x : ℝ) : tan x = sin x / cos x := by
   sorry

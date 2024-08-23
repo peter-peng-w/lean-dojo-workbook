@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (f : ℝ → ℝ) (hx: ∀ x, (f x)^2 = 4) : ∀ x, (f x = 2 ∨ f x = -2) := by
+theorem lean_workbook_54969 (f : ℝ → ℝ) (hx: ∀ x, (f x)^2 = 4) : ∀ x, (f x = 2 ∨ f x = -2) := by
   sorry

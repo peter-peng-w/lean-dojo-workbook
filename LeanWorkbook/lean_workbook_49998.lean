@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (a b : ℝ) : a / b = a * (1 / b) := by
+theorem lean_workbook_49998 (a b : ℝ) : a / b = a * (1 / b) := by
   sorry

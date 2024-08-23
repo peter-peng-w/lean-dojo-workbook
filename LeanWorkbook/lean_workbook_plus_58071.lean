@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : 2 ^ (2017 - 1) ≡ 1 [ZMOD 2017] := by
+theorem lean_workbook_plus_58071 : 2 ^ (2017 - 1) ≡ 1 [ZMOD 2017] := by
   sorry

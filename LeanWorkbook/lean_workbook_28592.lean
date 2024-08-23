@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (x : ℝ) : ∃! n : ℤ, (n : ℝ) ≤ x ∧ x < n + 1 := by
+theorem lean_workbook_28592 (x : ℝ) : ∃! n : ℤ, (n : ℝ) ≤ x ∧ x < n + 1 := by
   sorry

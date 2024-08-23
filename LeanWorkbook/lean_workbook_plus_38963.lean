@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (x a : ℝ)
+theorem lean_workbook_plus_38963  (x a : ℝ)
   (u v : ℝ)
   (h₀ : u = Real.sqrt (x + a))
   (h₁ : v = Real.sqrt (x - a))

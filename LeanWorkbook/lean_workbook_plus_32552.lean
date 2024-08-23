@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (n : ℕ) : ∑ i in Finset.range (n+1), i = n * (n+1) / 2 := by
+theorem lean_workbook_plus_32552 (n : ℕ) : ∑ i in Finset.range (n+1), i = n * (n+1) / 2 := by
   sorry

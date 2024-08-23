@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (u v : ℝ) : 0 ≤ (3 * u ^ 2 - 4 * v ^ 2) ^ 4 * (u ^ 2 - v ^ 2) ^ 2 := by
+theorem lean_workbook_28207 (u v : ℝ) : 0 ≤ (3 * u ^ 2 - 4 * v ^ 2) ^ 4 * (u ^ 2 - v ^ 2) ^ 2 := by
   sorry

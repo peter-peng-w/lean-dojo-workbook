@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (x : ℝ) : x ^ 4 ≥ 4 * x - 3 := by
+theorem lean_workbook_15374 (x : ℝ) : x ^ 4 ≥ 4 * x - 3 := by
   sorry

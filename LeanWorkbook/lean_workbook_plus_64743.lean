@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (a : ℝ)
+theorem lean_workbook_plus_64743  (a : ℝ)
   (h₀ : a / 4 = 1) :
   a = 4 := by
   sorry

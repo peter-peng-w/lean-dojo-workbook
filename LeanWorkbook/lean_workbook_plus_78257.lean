@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem    (a b c : ℝ)
+theorem lean_workbook_plus_78257    (a b c : ℝ)
     (ha : 0 < a ∧ 0 < b ∧ 0 < c)
     (hab : a + b > c)
     (hbc : b + c > a)

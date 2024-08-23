@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (x y : ℝ) : (x^6 + x^3*y^3 + y^6) ≤ (3/2)*(x^6 + y^6) := by
+theorem lean_workbook_22999 (x y : ℝ) : (x^6 + x^3*y^3 + y^6) ≤ (3/2)*(x^6 + y^6) := by
   sorry

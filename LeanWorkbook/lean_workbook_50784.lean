@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : ∀ n : ℕ, 3 ∣ 10^(n+1) + 10^n + 1 := by
+theorem lean_workbook_50784 : ∀ n : ℕ, 3 ∣ 10^(n+1) + 10^n + 1 := by
   sorry

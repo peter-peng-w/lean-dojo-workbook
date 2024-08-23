@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (n s : ℕ)
+theorem lean_workbook_plus_46324  (n s : ℕ)
   (h₀ : 0 < n)
   (h₁ : s = 15)
   (h₂ : s + 3 * n = 45) :

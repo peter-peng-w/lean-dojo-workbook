@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : (2 : ℝ) > 1 := by
+theorem lean_workbook_29643 : (2 : ℝ) > 1 := by
   sorry

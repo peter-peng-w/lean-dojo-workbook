@@ -8,6 +8,6 @@ open Real
 
 open Rat
 
-theorem lean_theorem (x y u v : ℝ) (h : x * v = y * u) :
+theorem lean_workbook_plus_69021 (x y u v : ℝ) (h : x * v = y * u) :
   x * (y + v) = y * (x + u) := by
   sorry

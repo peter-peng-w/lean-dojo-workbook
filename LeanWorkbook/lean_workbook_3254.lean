@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (z w : ℂ) : ‖z + w‖ ≤ ‖z‖ + ‖w‖ := by
+theorem lean_workbook_3254 (z w : ℂ) : ‖z + w‖ ≤ ‖z‖ + ‖w‖ := by
   sorry

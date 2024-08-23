@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : ∃ r s : ℂ, r + s = 0 ∧ r * s = -9 := by
+theorem lean_workbook_plus_74851 : ∃ r s : ℂ, r + s = 0 ∧ r * s = -9 := by
   sorry

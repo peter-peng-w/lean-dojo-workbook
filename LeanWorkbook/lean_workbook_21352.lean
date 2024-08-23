@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (a b c : ℝ) (ha : 0 < a) (hb : 0 < b) (hc : 0 < c) : (a * b + b * c + c * a) ≤ (a + b + c) ^ 2 / 3 := by
+theorem lean_workbook_21352 (a b c : ℝ) (ha : 0 < a) (hb : 0 < b) (hc : 0 < c) : (a * b + b * c + c * a) ≤ (a + b + c) ^ 2 / 3 := by
   sorry

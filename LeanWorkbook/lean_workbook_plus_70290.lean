@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (n : ℕ) : ∃ m ≤ n^2-1, n ∣ fib m := by
+theorem lean_workbook_plus_70290 (n : ℕ) : ∃ m ≤ n^2-1, n ∣ fib m := by
   sorry

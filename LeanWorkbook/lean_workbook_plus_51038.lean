@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (x y : ℝ)
+theorem lean_workbook_plus_51038  (x y : ℝ)
   (h₀ : 0 < x ∧ 0 < y)
   (h₁ : x^2 + y^2 = 27)
   (h₂ : x^4 + y^4 = 487) :

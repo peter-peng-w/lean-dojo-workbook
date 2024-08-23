@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (x : ℝ)
+theorem lean_workbook_plus_43573  (x : ℝ)
   (f : ℝ → ℝ)
   (h₀ : 0 < x)
   (h₁ : ∀ x, f x = (1 / 2 * x * Real.log x) + (1 / 4 * x)) :

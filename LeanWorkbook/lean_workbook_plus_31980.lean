@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (a b c : ℝ) : (a + b) ^ 2 * (b + c) ^ 2 ≥ 4 * b * (a + c) * (b ^ 2 + a * c) := by
+theorem lean_workbook_plus_31980 (a b c : ℝ) : (a + b) ^ 2 * (b + c) ^ 2 ≥ 4 * b * (a + c) * (b ^ 2 + a * c) := by
   sorry

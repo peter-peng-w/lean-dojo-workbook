@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : ∀ m : ℤ, (Int.floor (m^2 + m + 1/4) - Int.floor (m^2 - m + 1/4)) = 2 * m := by
+theorem lean_workbook_26571 : ∀ m : ℤ, (Int.floor (m^2 + m + 1/4) - Int.floor (m^2 - m + 1/4)) = 2 * m := by
   sorry

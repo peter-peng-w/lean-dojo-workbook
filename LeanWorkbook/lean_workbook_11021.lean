@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : 3 ^ 20 ≡ 1 [ZMOD 100] := by
+theorem lean_workbook_11021 : 3 ^ 20 ≡ 1 [ZMOD 100] := by
   sorry

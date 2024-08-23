@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : 8 = 2 ^ 3 := by
+theorem lean_workbook_plus_41144 : 8 = 2 ^ 3 := by
   sorry

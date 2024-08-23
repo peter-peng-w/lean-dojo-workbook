@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (a b : ℕ → ℕ)
+theorem lean_workbook_14262  (a b : ℕ → ℕ)
   (h₀ : a 1 = 1)
   (h₁ : b 1 = 2)
   (h₂ : ∀ i, b (i + 1) = 2 * b i + 2 * a i)

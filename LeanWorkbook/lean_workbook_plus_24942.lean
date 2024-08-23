@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : 19 ∣ (10^9 + 1) := by
+theorem lean_workbook_plus_24942 : 19 ∣ (10^9 + 1) := by
   sorry

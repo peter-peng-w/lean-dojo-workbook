@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (x : ℝ) : exp x ≥ 1 + x := by
+theorem lean_workbook_plus_20667 (x : ℝ) : exp x ≥ 1 + x := by
   sorry

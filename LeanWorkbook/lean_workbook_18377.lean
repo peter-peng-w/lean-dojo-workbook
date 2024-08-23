@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : ∑ i in divisors 32, i = 63 := by
+theorem lean_workbook_18377 : ∑ i in divisors 32, i = 63 := by
   sorry

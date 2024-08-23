@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (n : ℕ) (h : Even n) : Odd (n + 1) := by
+theorem lean_workbook_19552 (n : ℕ) (h : Even n) : Odd (n + 1) := by
   sorry

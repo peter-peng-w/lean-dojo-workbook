@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (x y : ℕ) : choose x y + choose x (y + 1) = choose (x + 1) (y + 1) := by
+theorem lean_workbook_8074 (x y : ℕ) : choose x y + choose x (y + 1) = choose (x + 1) (y + 1) := by
   sorry

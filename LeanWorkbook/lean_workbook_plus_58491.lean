@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (x : ℝ)
+theorem lean_workbook_plus_58491  (x : ℝ)
   (h₀ : x / 2 - 3 = 4) :
   x = 14 := by
   sorry

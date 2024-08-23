@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : ∀ x y : ℝ, x^2 + x*y + y^2 ≥ 3/4 * (x + y)^2 := by
+theorem lean_workbook_plus_78595 : ∀ x y : ℝ, x^2 + x*y + y^2 ≥ 3/4 * (x + y)^2 := by
   sorry

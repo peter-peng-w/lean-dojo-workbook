@@ -8,6 +8,6 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (a b c : ℝ) :
+theorem lean_workbook_plus_44927  (a b c : ℝ) :
   (a^2 * b + b^2 * c + c^2 * a)^2 ≤ (a^2 + b^2 + c^2) * (a^2 * b^2 + b^2 * c^2 + c^2 * a^2) := by
   sorry

@@ -8,6 +8,6 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (h₀ : (36 : ℝ) / 4 = 9) :
+theorem lean_workbook_plus_12314  (h₀ : (36 : ℝ) / 4 = 9) :
   36 / 4 = 9 := by
   sorry

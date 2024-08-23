@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (a b : ℕ)
+theorem lean_workbook_plus_80983  (a b : ℕ)
   (h₀ : 0 < a ∧ 0 < b)
   (h₁ : Nat.gcd a b = g)
   (h₂ : Nat.lcm a b = l)

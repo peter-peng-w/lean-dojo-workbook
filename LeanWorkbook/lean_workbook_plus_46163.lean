@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : Real.sqrt 1 = 1 := by
+theorem lean_workbook_plus_46163 : Real.sqrt 1 = 1 := by
   sorry

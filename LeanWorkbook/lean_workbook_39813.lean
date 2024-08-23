@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : 2005 ≡ 0 [ZMOD 2005] := by
+theorem lean_workbook_39813 : 2005 ≡ 0 [ZMOD 2005] := by
   sorry

@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : Real.logb 5 625 = 4 := by
+theorem lean_workbook_4808 : Real.logb 5 625 = 4 := by
   sorry

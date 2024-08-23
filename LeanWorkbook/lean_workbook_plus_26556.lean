@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (m n a b c : ℤ)
+theorem lean_workbook_plus_26556  (m n a b c : ℤ)
   (h₀ : 0 < m ∧ 0 < n ∧ 0 ≤ a ∧ 0 ≤ b ∧ 0 ≤ c)
   (h₁ : m^2 + n^2 + a^2 + b^2 + c^2 = 1989)
   (h₂ : m^2 + n^2 + a + b + c = 19)

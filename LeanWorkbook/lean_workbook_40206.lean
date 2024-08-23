@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : ¬∃ x : ℝ, 0 < x ∧ x + 2022 = ↑⌊x⌋ * (x - ↑⌊x⌋) := by
+theorem lean_workbook_40206 : ¬∃ x : ℝ, 0 < x ∧ x + 2022 = ↑⌊x⌋ * (x - ↑⌊x⌋) := by
   sorry

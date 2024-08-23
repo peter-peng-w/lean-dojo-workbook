@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (x y z: ℝ) : (x+y+z)^2 ≥ 3*(x*y+y*z+z*x) := by
+theorem lean_workbook_plus_34208 (x y z: ℝ) : (x+y+z)^2 ≥ 3*(x*y+y*z+z*x) := by
   sorry

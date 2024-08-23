@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (z : ℂ) : ‖z - 1/z‖ ≤ ‖z‖ + ‖1/z‖ := by
+theorem lean_workbook_plus_51370 (z : ℂ) : ‖z - 1/z‖ ≤ ‖z‖ + ‖1/z‖ := by
   sorry

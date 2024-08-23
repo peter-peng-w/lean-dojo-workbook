@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (a b c : ℝ) : (a + b + c) ^ 2 = 3 * (a * b + b * c + c * a) ↔ (a - b) ^ 2 + (b - c) ^ 2 + (c - a) ^ 2 = 0 := by
+theorem lean_workbook_plus_22219 (a b c : ℝ) : (a + b + c) ^ 2 = 3 * (a * b + b * c + c * a) ↔ (a - b) ^ 2 + (b - c) ^ 2 + (c - a) ^ 2 = 0 := by
   sorry

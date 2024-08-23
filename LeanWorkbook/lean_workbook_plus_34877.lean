@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (f : Polynomial ℤ) (g : Polynomial ℤ) (q : Polynomial ℤ) (r : Polynomial ℤ) (h₁ : f = q * g + r) (h₂ : r.degree < g.degree) : f = q * g + r ∧ r.degree < g.degree → (q, r) = (q, r) := by
+theorem lean_workbook_plus_34877 (f : Polynomial ℤ) (g : Polynomial ℤ) (q : Polynomial ℤ) (r : Polynomial ℤ) (h₁ : f = q * g + r) (h₂ : r.degree < g.degree) : f = q * g + r ∧ r.degree < g.degree → (q, r) = (q, r) := by
   sorry

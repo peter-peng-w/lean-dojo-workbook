@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (p n d : ℕ)
+theorem lean_workbook_plus_38077  (p n d : ℕ)
   (h₀ : p + n + d = 21)
   (h₁ : p + 5 * n + 10 * d = 100)
   (h₂ : 0 < p ∧ 0 < n ∧ 0 < d) :

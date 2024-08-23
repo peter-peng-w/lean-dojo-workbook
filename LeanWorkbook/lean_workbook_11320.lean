@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : 31 ∣ 5^31 + 5^17 + 1 := by
+theorem lean_workbook_11320 : 31 ∣ 5^31 + 5^17 + 1 := by
   sorry

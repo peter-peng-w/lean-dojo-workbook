@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : 10^(Nat.totient 729) ≡ 1 [ZMOD 729] := by
+theorem lean_workbook_56569 : 10^(Nat.totient 729) ≡ 1 [ZMOD 729] := by
   sorry

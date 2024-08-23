@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : (4! * 2!)/6! = 1/15 := by
+theorem lean_workbook_plus_48406 : (4! * 2!)/6! = 1/15 := by
   sorry

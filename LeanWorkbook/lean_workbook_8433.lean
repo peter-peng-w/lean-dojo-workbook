@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (x y : ℤ) (hx : x = 2) (h : y^2 = x - (x+3)/(x^2+1)) : y = -1 ∨ y = 1 := by
+theorem lean_workbook_8433 (x y : ℤ) (hx : x = 2) (h : y^2 = x - (x+3)/(x^2+1)) : y = -1 ∨ y = 1 := by
   sorry

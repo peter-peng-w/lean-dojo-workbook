@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (f : ℝ → ℝ)
+theorem lean_workbook_13335  (f : ℝ → ℝ)
   (h₀ : 8 * f x = 2 * f x) :
   f x = 0 := by
   sorry

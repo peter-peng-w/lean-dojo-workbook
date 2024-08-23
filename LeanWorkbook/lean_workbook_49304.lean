@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (x : ℝ) : (x^3 - 1) / 3 ≤ (x^4 - 1) / 4 := by
+theorem lean_workbook_49304 (x : ℝ) : (x^3 - 1) / 3 ≤ (x^4 - 1) / 4 := by
   sorry

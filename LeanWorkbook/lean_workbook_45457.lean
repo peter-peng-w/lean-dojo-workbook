@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : ∀ n : ℕ, 6 ∣ 7^n - 1 := by
+theorem lean_workbook_45457 : ∀ n : ℕ, 6 ∣ 7^n - 1 := by
   sorry

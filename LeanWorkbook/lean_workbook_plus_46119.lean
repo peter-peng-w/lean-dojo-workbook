@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (α : ℝ) : (sin α - 1) ^ 2 ≥ 0 := by
+theorem lean_workbook_plus_46119 (α : ℝ) : (sin α - 1) ^ 2 ≥ 0 := by
   sorry

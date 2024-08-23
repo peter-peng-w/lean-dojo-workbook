@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (a b : ℤ) : a^3 + b^3 = (a + b) * (a^2 - a * b + b^2) := by
+theorem lean_workbook_31589 (a b : ℤ) : a^3 + b^3 = (a + b) * (a^2 - a * b + b^2) := by
   sorry

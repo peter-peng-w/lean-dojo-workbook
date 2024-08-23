@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : 4^31 * 4 ≡ 4^32 [ZMOD 12] := by
+theorem lean_workbook_46346 : 4^31 * 4 ≡ 4^32 [ZMOD 12] := by
   sorry

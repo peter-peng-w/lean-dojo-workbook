@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (a b c d e : ℝ)
+theorem lean_workbook_plus_40762  (a b c d e : ℝ)
   (f r : ℝ → ℝ)
   (h₀ : ∀ x, r x = f x)
   (h₁ : r a = a^5)

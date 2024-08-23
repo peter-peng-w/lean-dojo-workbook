@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : 20 - 20 = 0 := by
+theorem lean_workbook_46419 : 20 - 20 = 0 := by
   sorry

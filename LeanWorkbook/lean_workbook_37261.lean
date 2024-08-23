@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (x y : ℝ) : |x| + |y| = |(x + y) / 2 + (x - y) / 2| + |(x + y) / 2 - (x - y) / 2| := by
+theorem lean_workbook_37261 (x y : ℝ) : |x| + |y| = |(x + y) / 2 + (x - y) / 2| + |(x + y) / 2 - (x - y) / 2| := by
   sorry

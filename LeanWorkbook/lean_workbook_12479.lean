@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : 6^42 ≡ 1 [ZMOD 43] := by
+theorem lean_workbook_12479 : 6^42 ≡ 1 [ZMOD 43] := by
   sorry

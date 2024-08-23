@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (z : ℂ) : ‖z‖^2 = ‖z^2‖ := by
+theorem lean_workbook_3906 (z : ℂ) : ‖z‖^2 = ‖z^2‖ := by
   sorry

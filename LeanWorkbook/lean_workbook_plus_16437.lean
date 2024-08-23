@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : ∀ a : ℝ, (a + 1) ^ 2 ≥ 4 * a := by
+theorem lean_workbook_plus_16437 : ∀ a : ℝ, (a + 1) ^ 2 ≥ 4 * a := by
   sorry

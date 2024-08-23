@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : (1680 / (1680 + 448)) = (15 / 19) := by
+theorem lean_workbook_plus_13125 : (1680 / (1680 + 448)) = (15 / 19) := by
   sorry

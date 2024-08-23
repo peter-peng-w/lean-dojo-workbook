@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : 7 ^ 2003 ≡ 3 [MOD 10] := by
+theorem lean_workbook_plus_39062 : 7 ^ 2003 ≡ 3 [MOD 10] := by
   sorry

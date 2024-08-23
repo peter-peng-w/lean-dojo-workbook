@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (p q r s : ℝ)
+theorem lean_workbook_plus_8045  (p q r s : ℝ)
   (h₀ : p = 2 / 5)
   (h₁ : q = 1 / 2)
   (h₂ : r = 3 / 5)

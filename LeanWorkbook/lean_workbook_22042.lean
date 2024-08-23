@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : 10010 ≡ 35 [MOD 665] := by
+theorem lean_workbook_22042 : 10010 ≡ 35 [MOD 665] := by
   sorry

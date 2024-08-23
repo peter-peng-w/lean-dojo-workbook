@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (n : ℕ) (h : n = 15) : φ n = 8 := by
+theorem lean_workbook_plus_77334 (n : ℕ) (h : n = 15) : φ n = 8 := by
   sorry

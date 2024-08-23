@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : 2^9 + 2^7 + 1 ∣ 2^32 + 1 := by
+theorem lean_workbook_plus_32541 : 2^9 + 2^7 + 1 ∣ 2^32 + 1 := by
   sorry

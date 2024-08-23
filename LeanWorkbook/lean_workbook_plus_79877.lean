@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (a b c p q r : ℝ)
+theorem lean_workbook_plus_79877  (a b c p q r : ℝ)
   (h₀ : a + b + c = 0)
   (h₁ : p + q + r = 0)
   (h₂ : a * p + b * q + c * r = 0)

@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : 7 % 2 = 1 := by
+theorem lean_workbook_plus_44843 : 7 % 2 = 1 := by
   sorry

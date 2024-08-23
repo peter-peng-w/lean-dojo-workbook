@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : (5/9)*(3/7)*(1/3) = 5/63 := by
+theorem lean_workbook_5639 : (5/9)*(3/7)*(1/3) = 5/63 := by
   sorry

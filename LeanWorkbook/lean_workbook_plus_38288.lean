@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (x : ℝ) (hx : x ≥ 0) : 2 * x ^ 5 - 5 * x ^ 2 + 3 ≥ 0 := by
+theorem lean_workbook_plus_38288 (x : ℝ) (hx : x ≥ 0) : 2 * x ^ 5 - 5 * x ^ 2 + 3 ≥ 0 := by
   sorry

@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (f : ℕ → ℕ → ℝ)
+theorem lean_workbook_plus_13963  (f : ℕ → ℕ → ℝ)
   (h₀ : ∀ m, f m 0 = m)
   (h₁ : ∀ m, f 0 m = m)
   (h₂ : ∀ m, f m m = 1 / 2 + f m (m - 1))

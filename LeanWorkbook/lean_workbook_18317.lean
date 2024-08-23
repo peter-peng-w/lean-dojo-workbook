@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (q : ℕ) (hq : 1 ≤ q) : 2 ^ q > q := by
+theorem lean_workbook_18317 (q : ℕ) (hq : 1 ≤ q) : 2 ^ q > q := by
   sorry

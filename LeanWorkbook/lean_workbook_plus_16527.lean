@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : 2 * ((b + c) ^ 4 + b ^ 4 + c ^ 4) = (2 * (b ^ 2 + b * c + c ^ 2)) ^ 2 := by
+theorem lean_workbook_plus_16527 : 2 * ((b + c) ^ 4 + b ^ 4 + c ^ 4) = (2 * (b ^ 2 + b * c + c ^ 2)) ^ 2 := by
   sorry

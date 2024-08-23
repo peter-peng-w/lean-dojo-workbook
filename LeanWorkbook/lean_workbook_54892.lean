@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (p : ℝ)
+theorem lean_workbook_54892  (p : ℝ)
   (h₀ : 0 ≤ p ∧ p ≤ 1) :
   (1 - p) * (1 - p) = (1 - p)^2 := by
   sorry

@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (m : ℕ) (hm : 0 < m) : ∃ n, m ∣ fib n := by
+theorem lean_workbook_plus_29522 (m : ℕ) (hm : 0 < m) : ∃ n, m ∣ fib n := by
   sorry

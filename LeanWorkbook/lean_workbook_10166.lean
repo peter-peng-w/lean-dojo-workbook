@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (a b c d : ℚ) (h₁ : a = 4/7) (h₂ : b = 5/11) : a * b = 20/77 := by
+theorem lean_workbook_10166 (a b c d : ℚ) (h₁ : a = 4/7) (h₂ : b = 5/11) : a * b = 20/77 := by
   sorry

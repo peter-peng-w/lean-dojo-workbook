@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : (2 - Real.cos θ) * (1 - Real.cos θ) + (-Real.sin θ) * (1 - Real.sin θ) = 3 - 3 * Real.cos θ - Real.sin θ := by
+theorem lean_workbook_plus_17716 : (2 - Real.cos θ) * (1 - Real.cos θ) + (-Real.sin θ) * (1 - Real.sin θ) = 3 - 3 * Real.cos θ - Real.sin θ := by
   sorry

@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : (Real.sqrt 3) * (3 * Real.sqrt 3) = 9 := by
+theorem lean_workbook_plus_3918 : (Real.sqrt 3) * (3 * Real.sqrt 3) = 9 := by
   sorry

@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (h₀ : x = 64)
+theorem lean_workbook_plus_29652  (h₀ : x = 64)
   (h₁ : y = 80)
   (h₂ : z = 24)
   (h₃ : a = 2) :

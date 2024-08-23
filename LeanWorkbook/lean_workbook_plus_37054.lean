@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (x : ℕ → ℝ)
+theorem lean_workbook_plus_37054  (x : ℕ → ℝ)
   (n : ℕ)
   (h₀ : 0 < x (n + 1))
   (h₁ : 0 < x (n + 2))

@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (n : ℕ) (hn : 3 ≤ n) : (n - 1) ^ 2 > 2 := by
+theorem lean_workbook_plus_19332 (n : ℕ) (hn : 3 ≤ n) : (n - 1) ^ 2 > 2 := by
   sorry

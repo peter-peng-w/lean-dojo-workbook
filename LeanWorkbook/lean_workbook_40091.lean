@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : 10000 - 10 = 9990 := by
+theorem lean_workbook_40091 : 10000 - 10 = 9990 := by
   sorry

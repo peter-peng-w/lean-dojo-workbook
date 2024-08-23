@@ -8,7 +8,7 @@ open Real
 
 open Rat
 
-theorem lean_theorem  (x y : ℝ)
+theorem lean_workbook_plus_30760  (x y : ℝ)
   (h₀ : x ≠ y)
   (h₁ : 0 < abs (x - y))
   (h₂ : 0 < abs (2 * (x - y))) :

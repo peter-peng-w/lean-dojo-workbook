@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (x n : ℤ) (hpos : 0 < x) (hrelprime : (x.gcd n) = 1) : ∃ k, n ∣ x^k - 1 := by
+theorem lean_workbook_41217 (x n : ℤ) (hpos : 0 < x) (hrelprime : (x.gcd n) = 1) : ∃ k, n ∣ x^k - 1 := by
   sorry

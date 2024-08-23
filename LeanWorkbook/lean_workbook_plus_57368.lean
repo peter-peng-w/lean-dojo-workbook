@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (p : ℝ) : 1 < p → ∃ l, ∑' n : ℕ, (1/(n^p) : ℝ) = l := by
+theorem lean_workbook_plus_57368 (p : ℝ) : 1 < p → ∃ l, ∑' n : ℕ, (1/(n^p) : ℝ) = l := by
   sorry

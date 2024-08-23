@@ -8,6 +8,6 @@ open Real
 
 open Rat
 
-theorem lean_theorem (n : ℕ) (hn : 1 ≤ n) :
+theorem lean_workbook_6942 (n : ℕ) (hn : 1 ≤ n) :
     ∃ m, (2^n ∣ m) ∧ (Nat.digits 10 m).all (· ∈ ({8, 9} : Finset ℕ)) := by
   sorry

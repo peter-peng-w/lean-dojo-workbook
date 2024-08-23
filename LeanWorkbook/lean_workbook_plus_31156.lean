@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (f : ℂ → ℂ) (h : 2 * f 0 = 0) : f 0 = 0 := by
+theorem lean_workbook_plus_31156 (f : ℂ → ℂ) (h : 2 * f 0 = 0) : f 0 = 0 := by
   sorry

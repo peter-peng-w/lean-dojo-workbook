@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem : (2^33) > 1000000000 := by
+theorem lean_workbook_7365 : (2^33) > 1000000000 := by
   sorry
