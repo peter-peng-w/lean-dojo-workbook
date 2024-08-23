@@ -8,5 +8,5 @@ open Real
 
 open Rat
 
-theorem lean_theorem (x : ℕ) (hx : x = 2^9 + 1) : x = 513 := by
+theorem lean_workbook101 (x : ℕ) (hx : x = 2^9 + 1) : x = 513 := by
   sorry
